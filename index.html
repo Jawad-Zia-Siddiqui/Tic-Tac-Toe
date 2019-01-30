@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TicTacToe</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./app.js"></script>
+</head>
+
+<body onload="childCreation()">
+  <h1>TIC TAC TOE</h1>
+  <div id="parent">
+
+
+
+  </div>
+
+
+
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="toggleModal(); location.reload()">×</span>
+      <h1 id="message"></h1>
+    </div>
+  </div>
+  
+
+
+
+</body>
+<script>
+
+  var modal = document.querySelector(".modal");
+  var closeButton = document.querySelector(".close-button");
+
+  window.addEventListener("click", windowOnClick);
+
+</script>
+
+</html>
